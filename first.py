@@ -1,5 +1,5 @@
-studentname = input('what is the student''s name? ')
-score = int(input)('what is their score? ')
+studentname = input('what is the student''s name?')
+score = int(input)('what is their score?')
 grade = ''
 if score >=80:
     grade = 'A'
