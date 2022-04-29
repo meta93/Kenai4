@@ -1,0 +1,17 @@
+create database kenai4;
+use kenai4;
+create table shelbys(
+     id int primary key not null auto_increment,
+     firstname text(20) not null,
+     gender text(20) not null,
+     phone int(15) not null,
+     role text(20) not null,
+     timestamp timestamp not null);
+
+insert into shelbys (firstname,gender,phone,role,timestamp) values ('Daniel','Male',0712345678,'AWS cloud practitioner',current_timestamp);
+insert into shelbys (firstname,gender,phone,role,timestamp) values ('Sonia','Female',764829927,'AWS cloud practitioner',current_timestamp);
+insert into shelbys (firstname,gender,phone,role,timestamp) values ('Osborn','Male',767294637,'AWS cloud practitioner',current_timestamp);
+insert into shelbys (firstname,gender,phone,role,timestamp) values ('Stacey','Female',773982763,'AWS cloud practitioner',current_timestamp);
+insert into shelbys (firstname,gender,phone,role,timestamp) values ('Patrick','Male',779382836,'AWS cloud practitioner',current_timestamp);
+
+select * from shelbys
