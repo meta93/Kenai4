@@ -15,3 +15,8 @@ insert into shelbys (firstname,gender,phone,role,timestamp) values ('Stacey','Fe
 insert into shelbys (firstname,gender,phone,role,timestamp) values ('Patrick','Male',779382836,'AWS cloud practitioner',current_timestamp);
 
 select * from shelbys
+
+
+
+
+--Good work Dave
