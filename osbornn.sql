@@ -17,3 +17,8 @@ VALUES ('Hilda','Ogambe','F','+254 546 252 320','TeachOp'),
        ('Hillary', 'Onyedika', 'M', '+234 258 369 741', 'Champion'); 
 
 SELECT * FROM shelbys;
+
+
+
+
+--Good WOrk
