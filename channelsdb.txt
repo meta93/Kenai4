@@ -1,0 +1,6 @@
+create database Kenai4;
+create table Whistledowns(ID int primary key auto_increment , first_name text, last_name text, phone varchar(15), gender text, role text) ;
+insert into Whistledowns(first_name,last_name,phone,gender,role)
+values("Horace","Jakpa","0203543678","male","President"),("Martha","Kudaya","0543378669","female","Vice President"),("Emmanuella","Nkrumah","0244355533","female","Organizer"),("Jimmy","Essel","0555456786","male","PRO"),("Seyram","Tefe","0278967546","male","Operations Manager");
+
+select * from Whistledowns;
