@@ -1,6 +1,3 @@
-#testing 1 2 3
-all work and no play , makes us all dull!!
-
 CREATE TABLE `kenai4`.`shelby1` (
   `ID` INT NOT NULL,
   `Full Name` VARCHAR(45) NOT NULL,
